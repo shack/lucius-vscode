@@ -1,0 +1,21 @@
+{
+    "name": "lucius",
+    "displayName": "Lucius Colortheme",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.61.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Lucius Dark Low Contrast",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Lucius Dark Low Contrast-color-theme.json"
+            }
+        ]
+    }
+}
