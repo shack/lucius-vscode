@@ -24,13 +24,13 @@
 		"terminal.ansiCyan": "#5faf87",
 		"terminal.ansiBrightCyan": "#5faf87",
 		"terminal.ansiWhite": "#626262",
-		"terminal.ansiBrightWhite": "#bcbcbc",
+		"terminal.ansiBrightWhite": "#bcbcbc"
 	},
 	"tokenColors": [
 		{
 			"name": "Comment",
 			"scope": [
-				"comment",
+				"comment"
 			],
 			"settings": {
 				"foreground": "#6c6c6c"
@@ -42,6 +42,7 @@
 				"constant",
 				"string",
 				"keyword.other.unit",
+				"entity.name.section"
 			],
 			"settings": {
 				"foreground": "#afaf87"
@@ -53,7 +54,7 @@
 				"entity",
 				"variable.parameter",
 				"variable.name",
-				"keyword.operator",
+				"keyword.operator"
 			],
 			"settings": {
 				"foreground": "#bcbcbc"
@@ -62,19 +63,20 @@
 		{
 			"name": "Invalid",
 			"scope": [
-				"invalid",
+				"invalid"
 			],
 			"settings": {
-				"foreground": "#d75f5f",
+				"foreground": "#d75f5f"
 			}
 		},
 		{
 			"name": "Keyword Control",
 			"scope": [
 				"keyword",
+				"support.function",
 			],
 			"settings": {
-				"foreground": "#5fafd7",
+				"foreground": "#5fafd7"
 			}
 		},
 		{
@@ -82,7 +84,7 @@
 			"scope": [
 				"storage",
 				"variable.language",
-				"meta.return-type",
+				"meta.return-type"
 			],
 			"settings": {
 				"foreground": "#5fafaf"
@@ -91,7 +93,7 @@
 		{
 			"name": "Support",
 			"scope": [
-				"support",
+				"support"
 			],
 			"settings": {
 				"foreground": "#bcbcbc"
@@ -101,6 +103,7 @@
 			"name": "Preprocessor",
 			"scope": [
 				"macro",
+				"meta.embedded.block.generic",
 				"meta.preprocessor",
 				"keyword.control.directive.conditional.ifndef",
 				"keyword.control.directive.conditional.ifdef",
@@ -112,6 +115,7 @@
 				"keyword.control.directive.undef",
 				"keyword.control.directive.error",
 				"entity.name.function.preprocessor",
+				"variable.parameter.function.latex",
 			],
 			"settings": {
 				"foreground": "#5faf87"
@@ -122,6 +126,8 @@
 			"name": "Special",
 			"scope": [
 				"markup.heading",
+				"keyword.control.table.cell.latex",
+				"variable.parameter.definition.label.latex"
 			],
 			"settings": {
 				"foreground": "#af87af"
@@ -129,16 +135,23 @@
 		},
 
 		{
-			"name": "Heading",
+			"name": "Italic",
 			"scope": [
-				"entity.name.section",
+				"markup.italic"
 			],
 			"settings": {
-				"foreground": "#5fafd7",
-				"fontStyle": "bold",
+				"fontStyle": "italic"
 			}
 		},
 
-
+		{
+			"name": "Bold",
+			"scope": [
+				"markup.bold"
+			],
+			"settings": {
+				"fontStyle": "bold"
+			}
+		}
 	]
 }
