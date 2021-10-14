@@ -1,4 +1,4 @@
-# Lucius Colorscheme fro VSCode
+# Lucius Colorscheme for VSCode
 
 This is an implementation of the *low contrast* profile of the [Lucius](https://github.com/jonathanfilip/vim-lucius) colorscheme for VSCode.
 For some small details in syntax coloring, it deviates from the original because the syntax token categories are just different in VS code than in Vim.
