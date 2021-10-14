@@ -7,6 +7,8 @@
 		"activityBarBadge.background": "#005f87",
 		"statusBar.background": "#005f87",
 		"sideBarTitle.foreground": "#bcbcbc",
+		"editorCursor.foreground": "#5f87af",
+		"editorCursor.background": "#303030",
 		"terminal.background":"#303030",
 		"terminal.foreground": "#bcbcbc",
 		"terminal.ansiBlack": "#121212",
